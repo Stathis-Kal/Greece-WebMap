@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_909f0ccd51b549e8bf1ec2a24fff0e72 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_909f0ccd51b549e8bf1ec2a24fff0e72" ></div>
+        
+</body>
+<script>    
+    
+            var map_909f0ccd51b549e8bf1ec2a24fff0e72 = L.map(
+                "map_909f0ccd51b549e8bf1ec2a24fff0e72",
+                {
+                    center: [39.0742, 21.8243],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7968c6d5331a4ab7b86986ad0fb5655d = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_909f0ccd51b549e8bf1ec2a24fff0e72);
+        
+    
+            var feature_group_aff24d38be494e24ac838744d8c82f9f = L.featureGroup(
+                {}
+            ).addTo(map_909f0ccd51b549e8bf1ec2a24fff0e72);
+        
+    
+            var marker_1e46aeeba906433d8d9710a79b2383f6 = L.marker(
+                [37.615, 23.34],
+                {}
+            ).addTo(feature_group_aff24d38be494e24ac838744d8c82f9f);
+        
+    
+            var icon_94ed29bdb2854cfbacd8541b059c78a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "check", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1e46aeeba906433d8d9710a79b2383f6.setIcon(icon_94ed29bdb2854cfbacd8541b059c78a0);
+        
+    
+        var popup_9117d89a4c154c2799a82f5acb99cff2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c851bdfb43794be4a361688a8de7fbf6 = $(`<div id="html_c851bdfb43794be4a361688a8de7fbf6" style="width: 100.0%; height: 100.0%;">Methana has 760.0 m of elevation.</div>`)[0];
+            popup_9117d89a4c154c2799a82f5acb99cff2.setContent(html_c851bdfb43794be4a361688a8de7fbf6);
+        
+
+        marker_1e46aeeba906433d8d9710a79b2383f6.bindPopup(popup_9117d89a4c154c2799a82f5acb99cff2)
+        ;
+
+        
+    
+    
+            var marker_79be6ddfc6eb4d05a4ad58fafa1dd553 = L.marker(
+                [36.699, 24.44],
+                {}
+            ).addTo(feature_group_aff24d38be494e24ac838744d8c82f9f);
+        
+    
+            var icon_95247950cedc46408c68c01929ae64c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "check", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_79be6ddfc6eb4d05a4ad58fafa1dd553.setIcon(icon_95247950cedc46408c68c01929ae64c7);
+        
+    
+        var popup_1b83deb6517045d79694c4d58a8b95bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48fd8b4a88b24b6c9dde808773bef8c9 = $(`<div id="html_48fd8b4a88b24b6c9dde808773bef8c9" style="width: 100.0%; height: 100.0%;">Mílos has 751.0 m of elevation.</div>`)[0];
+            popup_1b83deb6517045d79694c4d58a8b95bd.setContent(html_48fd8b4a88b24b6c9dde808773bef8c9);
+        
+
+        marker_79be6ddfc6eb4d05a4ad58fafa1dd553.bindPopup(popup_1b83deb6517045d79694c4d58a8b95bd)
+        ;
+
+        
+    
+    
+            var marker_14173ecb02d54c658ac18281edf86a7c = L.marker(
+                [36.404, 25.4],
+                {}
+            ).addTo(feature_group_aff24d38be494e24ac838744d8c82f9f);
+        
+    
+            var icon_0658360e7cde4dbb89af0bb74f5e9601 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "check", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_14173ecb02d54c658ac18281edf86a7c.setIcon(icon_0658360e7cde4dbb89af0bb74f5e9601);
+        
+    
+        var popup_bcd060e50dd3433f9590afd6824ee353 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa9e1f0c91d247409e358017eb5acdda = $(`<div id="html_fa9e1f0c91d247409e358017eb5acdda" style="width: 100.0%; height: 100.0%;">Santorini has 367.0 m of elevation.</div>`)[0];
+            popup_bcd060e50dd3433f9590afd6824ee353.setContent(html_fa9e1f0c91d247409e358017eb5acdda);
+        
+
+        marker_14173ecb02d54c658ac18281edf86a7c.bindPopup(popup_bcd060e50dd3433f9590afd6824ee353)
+        ;
+
+        
+    
+    
+            var marker_f4105b16e63640d6b828b1930b466af0 = L.marker(
+                [36.671, 27.14],
+                {}
+            ).addTo(feature_group_aff24d38be494e24ac838744d8c82f9f);
+        
+    
+            var icon_d2df94e6f757405d977b979b034870d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "check", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f4105b16e63640d6b828b1930b466af0.setIcon(icon_d2df94e6f757405d977b979b034870d7);
+        
+    
+        var popup_abfd44397ad542caad6f4f6bb6e7c0cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6add7a37bfda4a3aa58e2550d8105af0 = $(`<div id="html_6add7a37bfda4a3aa58e2550d8105af0" style="width: 100.0%; height: 100.0%;">Yali has 180.0 m of elevation.</div>`)[0];
+            popup_abfd44397ad542caad6f4f6bb6e7c0cc.setContent(html_6add7a37bfda4a3aa58e2550d8105af0);
+        
+
+        marker_f4105b16e63640d6b828b1930b466af0.bindPopup(popup_abfd44397ad542caad6f4f6bb6e7c0cc)
+        ;
+
+        
+    
+    
+            var marker_f264fdc03e904b8b919e245c37877986 = L.marker(
+                [36.586, 27.16],
+                {}
+            ).addTo(feature_group_aff24d38be494e24ac838744d8c82f9f);
+        
+    
+            var icon_74d63017bbcf4ce38e385044b554745d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "check", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f264fdc03e904b8b919e245c37877986.setIcon(icon_74d63017bbcf4ce38e385044b554745d);
+        
+    
+        var popup_8bc7865f891d4169ab648684f2c30580 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe40d4255e2740cc93e7ebe1321fb41f = $(`<div id="html_fe40d4255e2740cc93e7ebe1321fb41f" style="width: 100.0%; height: 100.0%;">Nisyros has 698.0 m of elevation.</div>`)[0];
+            popup_8bc7865f891d4169ab648684f2c30580.setContent(html_fe40d4255e2740cc93e7ebe1321fb41f);
+        
+
+        marker_f264fdc03e904b8b919e245c37877986.bindPopup(popup_8bc7865f891d4169ab648684f2c30580)
+        ;
+
+        
+    
+    
+            var marker_c434a61593fa49c29b0259f573e012f7 = L.marker(
+                [36.852, 27.25],
+                {}
+            ).addTo(feature_group_aff24d38be494e24ac838744d8c82f9f);
+        
+    
+            var icon_5203e30e24bd434a804e27c9abb843b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "check", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c434a61593fa49c29b0259f573e012f7.setIcon(icon_5203e30e24bd434a804e27c9abb843b9);
+        
+    
+        var popup_545102423e06467d854f23edf54943fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_002f4f25204a42a8a3eca4e2ecf1a165 = $(`<div id="html_002f4f25204a42a8a3eca4e2ecf1a165" style="width: 100.0%; height: 100.0%;">Kos has 430.0 m of elevation.</div>`)[0];
+            popup_545102423e06467d854f23edf54943fd.setContent(html_002f4f25204a42a8a3eca4e2ecf1a165);
+        
+
+        marker_c434a61593fa49c29b0259f573e012f7.bindPopup(popup_545102423e06467d854f23edf54943fd)
+        ;
+
+        
+    
+    
+            var layer_control_785ee43985f248ff9eafc3a076830c91 = {
+                base_layers : {
+                    "stamenterrain" : tile_layer_7968c6d5331a4ab7b86986ad0fb5655d,
+                },
+                overlays :  {
+                    "Volcanoes" : feature_group_aff24d38be494e24ac838744d8c82f9f,
+                },
+            };
+            L.control.layers(
+                layer_control_785ee43985f248ff9eafc3a076830c91.base_layers,
+                layer_control_785ee43985f248ff9eafc3a076830c91.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_909f0ccd51b549e8bf1ec2a24fff0e72);
+        
+</script>
