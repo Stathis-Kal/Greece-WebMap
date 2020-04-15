@@ -33,4 +33,6 @@ def color_producer(elev):
 There is also a layer control, in which you can choose what do you want to be displayed on the map.
 The layer control is located top right on your screen.
 
+[![CodeFactor](https://www.codefactor.io/repository/github/stathis-kal/greece-webmap/badge/master)](https://www.codefactor.io/repository/github/stathis-kal/greece-webmap/overview/master)
+
 Licensed under [MIT License.](LICENSE)
